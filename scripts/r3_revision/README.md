@@ -27,7 +27,9 @@ geometry/stiffness arrays and the exact held-out Laplace Test Set 2.
 `reproducibility/r3/results/` contains reviewed numerical summaries for the
 three-seed comparisons, source-free PB comparison, and frozen molecular test.
 Raw run folders and large arrays/checkpoints are not included. In particular,
-the PB and molecular workflows require additional inputs listed in Section 8.
+exact PB and molecular replays require additional inputs listed in Section 8.
+For a fresh PB reproduction without archived arrays or pretrained weights,
+follow [the complete generation/training/testing commands](PB_FROM_SCRATCH.md).
 
 Install the base and optional geometry dependencies with
 `python -m pip install -r requirements-r3.txt`. Mesh/refinement checks need
@@ -251,7 +253,8 @@ training, normalization, or checkpoint selection.
 The required architecture file is `scripts_train/LNFNO_PB_with_source.py`
 from the separate LNF-NO project. It is passed explicitly rather than
 silently substituted with another implementation. Required checksums are
-listed in Section 8.
+listed in Section 8. The public pinned source and a complete fresh-training
+workflow are linked in [PB_FROM_SCRATCH.md](PB_FROM_SCRATCH.md).
 
 After acquiring the required inputs listed below, the comparison entry point
 is:
