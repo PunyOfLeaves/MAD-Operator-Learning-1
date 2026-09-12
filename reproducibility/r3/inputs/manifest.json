@@ -1,6 +1,13 @@
 {
   "schema": "MAD-R3-public-inputs-v1",
   "files": {
+    "7_GLY.pqr": {
+      "sha256": "f2e91edfefbb97e2fec6e5eca09cfbf974e4b6e1d2f2e57085704dcff2208385",
+      "bytes": 496,
+      "atoms": 7,
+      "provenance": "Author-supplied PQR input used for the 7_GLY experiment; released at the author's request. Original upstream attribution is not established by this manifest.",
+      "usage": "Coordinates and radii define the sphere-union geometry. Atomic charges are not used in the Laplace experiment."
+    },
     "flower_geometry.mat": {
       "sha256": "79c33016f9866042d7aa50e01bd6cb4e1fdc560d238b7b52b2d7ee7324ec05af",
       "bytes": 165921,

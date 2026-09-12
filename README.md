@@ -26,7 +26,7 @@ The additional experiments are indexed in
 data generation, paired training-data comparisons, fixed complex domains,
 and source-free nonlinear Poisson--Boltzmann prediction with FNO and LNF-NO.
 The guide includes commands, reviewed small inputs, and result summaries,
-and identifies additional inputs needed for the PB and molecular tests.
+and provides from-scratch PB and molecular reproduction instructions.
 It does not claim that every R3 checkpoint or dataset is included.
 Original benchmark files are unchanged.
 

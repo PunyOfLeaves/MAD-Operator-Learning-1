@@ -30,6 +30,8 @@ Raw run folders and large arrays/checkpoints are not included. In particular,
 exact PB and molecular replays require additional inputs listed in Section 8.
 For a fresh PB reproduction without archived arrays or pretrained weights,
 follow [the complete generation/training/testing commands](PB_FROM_SCRATCH.md).
+For the molecular case, the small 7_GLY PQR is now included; follow
+[PQR-to-mesh-to-training-to-testing](MOLECULAR_FROM_SCRATCH.md).
 
 Install the base and optional geometry dependencies with
 `python -m pip install -r requirements-r3.txt`. Mesh/refinement checks need
@@ -338,8 +340,8 @@ not reproduce an archived floating-point trajectory bit for bit.
 | --- | --- | --- |
 | `1SourcePB2D_2000_101.npy` | PB source-driven (2000, 20802) array, fixed 1800/200 split | Not bundled |
 | Original FNO best checkpoint | Frozen source-driven validation-selected model for S4 | Not bundled |
-| `LNFNO_PB_with_source.py` | Separate LNF-NO architecture/training implementation | Not bundled; use the exact version identified below |
-| Final 7_GLY `geometry.npz` | Geometry and fixed query points | Redistribution provenance pending confirmation; not bundled |
+| `LNFNO_PB_with_source.py` | Separate LNF-NO architecture/training implementation | Public pinned upstream source; see PB_FROM_SCRATCH.md |
+| Archived 7_GLY `geometry.npz` | Original discretization and fixed query points | Not bundled; included PQR and mesh/export scripts support fresh reconstruction |
 | Two frozen 7_GLY checkpoints | Exact Table S.9 replay | Not bundled; hashes enforced by the evaluation script |
 
 Required SHA-256 values for the separate PB workflow:

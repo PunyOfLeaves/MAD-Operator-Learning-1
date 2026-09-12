@@ -1,3 +1,4 @@
 # Preserve the bytes recorded in manifest.json on every platform.
 *.txt -text -diff
 *.mat -text
+*.pqr -text whitespace=cr-at-eol
