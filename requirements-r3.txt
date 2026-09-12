@@ -1,0 +1,7 @@
+# Base neural-operator dependencies remain unchanged.
+-r requirements.txt
+
+# Optional geometry preparation and FEM refinement for the R3 domain checks.
+gmsh==4.15.0
+meshio==5.3.5
+scikit-fem

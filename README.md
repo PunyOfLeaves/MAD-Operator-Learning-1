@@ -19,6 +19,24 @@ This repository contains the datasets and code for implementing the **Mathematic
   - **`model_training/`**: Scripts for training MAD and PINN models on the generated datasets.
   - **`model_testing/`**: Scripts for testing trained models and visualizing performance.
 
+## Revised Experiments
+
+The additional experiments are indexed in
+[the R3 experiment guide](scripts/r3_revision/README.md), including fast DST
+data generation, paired training-data comparisons, fixed complex domains,
+and source-free nonlinear Poisson--Boltzmann prediction with FNO and LNF-NO.
+The guide includes commands, reviewed small inputs, and result summaries,
+and identifies additional inputs needed for the PB and molecular tests.
+It does not claim that every R3 checkpoint or dataset is included.
+Original benchmark files are unchanged.
+
+The LNF-NO architecture reference is H. Wu, J. Wang and B. Lu,
+"Linear-Nonlinear Fusion Neural Operator for Partial Differential Equations,"
+*Computer Modeling in Engineering & Sciences* 148(2), 29 (2026),
+[doi:10.32604/cmes.2026.084608](https://doi.org/10.32604/cmes.2026.084608).
+The additional MAD0-trained source-free comparison is a separate experiment
+documented in the R3 guide, not a reuse of that article's numerical results.
+
 ---
 
 ## Quick Start

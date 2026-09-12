@@ -1,0 +1,8 @@
+{
+  "model_seed": 2026090906,
+  "epochs": 50000,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "hidden_width": 220,
+  "scope": "Common final 7_GLY MAD and physics-constrained training configuration; each arm selects its own minimum validation objective."
+}

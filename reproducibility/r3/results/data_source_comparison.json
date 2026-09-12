@@ -1,0 +1,95 @@
+{
+  "scope": "Main Table 6 and Supplementary Tables S.5-S.6; all three paired seeds.",
+  "seeds": [
+    20260904,
+    20260905,
+    20260906
+  ],
+  "samples": 2000,
+  "epochs": 50000,
+  "selection": "Minimum training-minibatch MSE, not test error",
+  "metric": "Aggregate discrete relative L2, mean and sample standard deviation across three runs",
+  "source_record_sha256": "0ad146704e25c853eac296a8cfa33d2f3a0e767626e18daa447aa3afbbec4a9a",
+  "summary": [
+    {
+      "group": "helmholtz_mad0",
+      "epoch": 50000,
+      "model": "best_model",
+      "n": 3,
+      "metrics": {
+        "Test Set 1": {
+          "mean": 0.007328686428062651,
+          "sample_std": 0.0006764614535180684
+        },
+        "Test Set 2": {
+          "mean": 0.005903775574403304,
+          "sample_std": 0.00023195722216680918
+        },
+        "Training set": {
+          "mean": 0.005145731764794389,
+          "sample_std": 9.551479630539376e-05
+        }
+      }
+    },
+    {
+      "group": "helmholtz_solver",
+      "epoch": 50000,
+      "model": "best_model",
+      "n": 3,
+      "metrics": {
+        "Test Set 1": {
+          "mean": 0.5326069448823408,
+          "sample_std": 0.0045272729484412645
+        },
+        "Test Set 2": {
+          "mean": 0.0007166824980343444,
+          "sample_std": 6.424110508508972e-05
+        },
+        "Training set": {
+          "mean": 0.0006897199652337149,
+          "sample_std": 6.536849245360817e-05
+        }
+      }
+    },
+    {
+      "group": "laplace_mad1",
+      "epoch": 50000,
+      "model": "best_model",
+      "n": 3,
+      "metrics": {
+        "Test Set 1": {
+          "mean": 0.0030193283068491554,
+          "sample_std": 0.00015481416428469397
+        },
+        "Test Set 2": {
+          "mean": 0.002632253820361082,
+          "sample_std": 0.000209783685524075
+        },
+        "Training set": {
+          "mean": 0.0034618087356891,
+          "sample_std": 0.00018730891877720413
+        }
+      }
+    },
+    {
+      "group": "laplace_solver",
+      "epoch": 50000,
+      "model": "best_model",
+      "n": 3,
+      "metrics": {
+        "Test Set 1": {
+          "mean": 0.04679448297797332,
+          "sample_std": 0.0017674988359005763
+        },
+        "Test Set 2": {
+          "mean": 0.0016444738327089858,
+          "sample_std": 0.00024087504134577678
+        },
+        "Training set": {
+          "mean": 0.001644212821858325,
+          "sample_std": 0.00023778861581520233
+        }
+      }
+    }
+  ]
+}

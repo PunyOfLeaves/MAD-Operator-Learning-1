@@ -1,0 +1,27 @@
+{
+  "schema": "MAD-R3-public-inputs-v1",
+  "files": {
+    "flower_geometry.mat": {
+      "sha256": "79c33016f9866042d7aa50e01bd6cb4e1fdc560d238b7b52b2d7ee7324ec05af",
+      "bytes": 165921,
+      "provenance": "Synthetic five-lobed domain with three elliptical holes used in the reported experiment. Numeric geometry and P1 stiffness fields only.",
+      "source_archive_sha256": "fbd65dd4bafd6ec80e000577e78c3f90917fdc7fff8a3fa30cfabc28c93d7418",
+      "nodes": 2259,
+      "triangles": 4042,
+      "boundary_nodes": 480,
+      "export": "Retains all arrays read by load_geometry; unused solver settings and matrices omitted."
+    },
+    "TSLlaplace2D_(200, 51).txt": {
+      "sha256": "1cdd39d1938328b3c4ad9d7d3792663d29eddc65fac9e92b204cd3506f88153e",
+      "bytes": 5331470,
+      "provenance": "Exact held-out GRF-boundary Laplace Test Set 2 used for the reported paired comparison.",
+      "samples": 200,
+      "boundary_sensors": 200,
+      "solution_grid": [
+        51,
+        51
+      ],
+      "ordering": "TextDataset layout: each sample contains boundary values followed by flattened solution values."
+    }
+  }
+}

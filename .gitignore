@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local revision evidence and generated payloads are released only by explicit
+# selection. These rules leave all already tracked original benchmarks intact.
+/artifacts/
+/results/
+/data/r3_revision/
+/data/TNM1helmholtz2D_(2000, 51).txt

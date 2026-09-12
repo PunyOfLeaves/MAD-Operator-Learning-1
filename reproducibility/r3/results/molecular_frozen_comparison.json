@@ -1,0 +1,53 @@
+{
+  "scope": "Supplementary Table S.9; 200 fresh functions on fixed geometry and spatial query points.",
+  "seed": 2026091107,
+  "count": 200,
+  "relative_clearance": 0.01,
+  "source_record_sha256": "559ca303f9d9a217d20467d9cc0c56dcbf1fd6cba630f02ef742ecf3462d3635",
+  "results": {
+    "mad": {
+      "epoch": 49724,
+      "checkpoint_sha256": "911328a8d7ae9f7ebb677f22175a346e3cfd61ca2a26e83d0eb896998e922712",
+      "interior": {
+        "count": 200,
+        "aggregate": 0.03456325067138202,
+        "mean": 0.05111088223286214,
+        "sd": 0.033859341607778294,
+        "median": 0.04416100981202624,
+        "p90": 0.09029940269787305,
+        "maximum": 0.24900699847348745
+      },
+      "boundary": {
+        "count": 200,
+        "aggregate": 0.08169354965904291,
+        "mean": 0.111032053498629,
+        "sd": 0.06654360470025826,
+        "median": 0.09999926938076033,
+        "p90": 0.19546752462202371,
+        "maximum": 0.38444286007894624
+      }
+    },
+    "pi": {
+      "epoch": 49068,
+      "checkpoint_sha256": "8c35ea8be4ec17329dde539b34cb3509e343c43579c154d9df3d66bc8dd07b71",
+      "interior": {
+        "count": 200,
+        "aggregate": 0.15036661491936906,
+        "mean": 0.21982539301686657,
+        "sd": 0.10859760989760778,
+        "median": 0.20485560399229813,
+        "p90": 0.36698326023621525,
+        "maximum": 0.5545275814482752
+      },
+      "boundary": {
+        "count": 200,
+        "aggregate": 0.292324227981422,
+        "mean": 0.3797574355390917,
+        "sd": 0.14502141188279605,
+        "median": 0.37587142961889997,
+        "p90": 0.5771059556976178,
+        "maximum": 0.7296771242212209
+      }
+    }
+  }
+}
